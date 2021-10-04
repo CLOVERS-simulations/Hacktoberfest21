@@ -3,4 +3,4 @@ import sympy as sp
 
 f = lambda t: np.cos(t)
 
-f(1) = 0
+print(f(1))
