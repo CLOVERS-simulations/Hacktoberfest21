@@ -21,7 +21,6 @@ jobs:
     - name: Install dependencies
       run: |
         conda install numpy sympy scipy matplotlib
-        conda install -c ngsolve ngsolve
     - name: Lint with flake8
       run: |
         conda install flake8
